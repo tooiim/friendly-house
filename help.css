@@ -1,0 +1,34 @@
+.help {
+  margin-bottom: 100px;
+}
+
+.help__title {
+  margin-bottom: 115px;
+  font-size: 50px;
+  color: #ff8a00;
+  text-align: center;
+}
+
+.help__list {
+  padding-left: 60px;
+  list-style-position: outside;
+}
+
+
+.help__item:first-child { 
+  max-width: 445px;
+}
+
+.help__item::marker {
+  font-family: "Comfortaa";
+  font-size: 50px;
+  font-weight: 400;
+  color: #ff8a00;
+}
+
+.help__item-title {
+  margin-bottom: 40px;
+  font-family: "Helvetica Neue Cyr";
+  font-size: 30px;
+  font-weight: 400;
+}

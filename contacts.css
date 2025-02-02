@@ -1,0 +1,123 @@
+.contacts {
+  max-width: 780px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #f2f0f1;
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.contacts--container {
+  padding: 0;
+}
+
+.contacts__title {
+  font-family: "Comfortaa", sans-serif;
+  color: #ff8a00;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contacts__text {
+  font-family: "Helvetica Neue Cyr";
+  color: #282626;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.contacts__text:last-of-type {
+  margin-bottom: 15px;
+}
+
+.contacts__subtitle {
+  font-family: "Helvetica Neue Cyr";
+  color: #ff8a00;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
+
+.contacts__list {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contacts__link {
+  position: relative;
+  font-family: "Helvetica Neue Cyr";
+  color: #282626;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 38px;
+  text-decoration: none;
+}
+
+.contacts__link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.contacts__link-one:before {
+  background: url(../image/call.svg);
+}
+
+.contacts__link-two:before {
+  background: url(../image/mail.svg);
+}
+
+.form {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.form__item {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form__item:last-of-type {
+  margin-bottom: 35px;
+}
+
+.form__item-input {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+}
+
+.form__item-label {
+  font-family: "Helvetica Neue Cyr";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.16;
+}
+
+.form__button {
+  width: 220px;
+  height: 40px;
+  background: #282626;
+  color: #ff8a00;
+  text-align: center;
+  font-family: "Helvetica Neue Cyr";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: uppercase;
+}

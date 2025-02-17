@@ -1,0 +1,99 @@
+
+.pets {
+}
+
+.pets__container {
+}
+
+.pets__inner {
+  
+}
+.pets__list {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 326px 352px;
+  gap: 48px 20px;
+}
+.pets__item {
+  
+}
+
+.pets__link {
+  display: block;
+}
+
+.pets__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  margin-bottom: 20px;
+}
+.pets__info {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+}
+.pets__item-1 {
+  grid-column: 1 / 6;
+}
+
+.pets__item-2 {
+  grid-column: 6 / 9;
+}
+.pets__item-3 {
+  grid-column: 9 / 13;
+  grid-row: 1 / 3;
+
+  width: 380px;
+  height: 696px;
+}
+.pets__item-4 {
+  grid-column: 1 / 4;
+
+  width: 280px;
+  height: 326px;
+}
+.pets__item-5 {
+  grid-column: 4 / 7;
+
+  width: 280px;
+  height: 326px;
+}
+.pets__item-6 {
+  grid-column: 7 / 9;
+
+  width: 180px;
+  height: 352px;
+}
+
+.pets__img-1 {
+  width: 480px;
+  height: 277px;
+}
+
+.pets__img-2 {
+  width: 280px;
+  height: 277px;
+}
+
+.pets__img-3 {
+  width: 380px;
+  height: 650px;
+}
+
+.pets__img-4 {
+  width: 280px;
+  height: 280px;
+}
+
+.pets__img-5 {
+  width: 280px;
+  height: 280px;
+}
+
+.pets__img-6 {
+  width: 180px;
+  height: 280px;
+}

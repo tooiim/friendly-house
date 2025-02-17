@@ -1,0 +1,151 @@
+
+.projects {
+  padding-top: 100px;
+}
+
+.projects__inner {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  row-gap: 52px;
+}
+
+.projects__container {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-rows: repeat(4, 180px);
+  row-gap: 30px;
+}
+.projects__item {
+  display: grid;
+  grid-template-columns: 280px 380px;
+  column-gap: 20px;
+}
+
+.project__image {
+  width: 280px;
+  height: 180px;
+}
+.project__img {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.project__info {
+  font-family: "Helvetica Neue Cyr";
+}
+.project__title {
+  margin-bottom: 15px;
+
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.33333;
+}
+
+.project__text {
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.projects__aside {
+  /* display: grid;
+  padding-top: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 450px 298px;
+  row-gap: 52px;
+  align-items: end; */
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.other__projects {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.project__link {
+  display: flex;
+  gap: 15px;
+
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.3;
+  color: #ff8a00;
+}
+
+.project__link--tablet {
+  display: none;
+}
+
+.projects__banner {
+  position: relative;
+  display: block;
+  
+	max-width: 380px;
+  height: 450px;
+  border: 1px solid #000;
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.81) 100%), url("../image/projects/project-blog.jpg");
+}
+
+.banner-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.banner__link {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+}
+
+.banner__image {
+  width: 100%;
+  height: auto;
+}
+
+.banner__content {
+  position: absolute; 
+  bottom: 40px;
+  left: 10px;
+
+  color: #fff; 
+  z-index: 1; 
+}
+
+.other__projects-title {
+  font-family: "HelveticaNeueCyr", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.3;
+
+  margin-bottom: 22px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(60px,80px));
+  grid-template-rows: repeat(3,minmax(52px,70px));
+  gap: 20px;
+}
+
+.grid__item {
+  width: 80px;
+  height: 70px;
+  
+}
+.grid__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}

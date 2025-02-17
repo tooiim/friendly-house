@@ -1,0 +1,65 @@
+body {
+  position: relative;
+  overflow-x: hidden;
+
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-color);
+
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.page__container {
+  
+}
+
+.wrapper {
+  max-width: 1190px;
+  padding: 140px 125px 180px;
+  margin: 0 auto;
+  
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section__title {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  color: var(--text-color);
+  
+  margin-bottom: 50px;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.text {
+  font-family: "Helvetica Neue Cyr";
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.text:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.text-strong {
+  font-weight: 700;
+}

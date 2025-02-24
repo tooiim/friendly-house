@@ -1,4 +1,4 @@
-@media (max-width: 1240px) {
+/* @media (max-width: 1240px) {
   .container {
     max-width: 940px;
   }
@@ -12,7 +12,7 @@
   }
 
   .projects__inner {
-    grid-template-columns: repeat(9, 80px);
+  
   }
 
 
@@ -354,4 +354,4 @@
     grid-column: 1 / 2;
 		grid-row: 3 / 4;
   }
-}
+} */

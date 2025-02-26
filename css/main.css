@@ -67,3 +67,25 @@ body {
 .none {
   display: none;
 }
+
+/* Media */
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 940px;
+  }
+}
+
+@media (max-width: 910px)  {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 690px) {
+  .container {
+    max-width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
